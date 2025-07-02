@@ -3,7 +3,7 @@ on:
   push:
     branches: [master, feature]
   pull_request:
-    branches: [master, feature]
+    branches: [master]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
