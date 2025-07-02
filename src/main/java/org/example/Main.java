@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Hello world!");
         Calculator calc = new Calculator();
         int a = 100;
-        int b = 500;
+        int b = 5000;
         System.out.println(calc.add(a, b));
         System.out.println(calc.subtract(a, b));
     }
